@@ -2,7 +2,7 @@
 import express from "express";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
-import authRoute from "./routes"
+import authRoute from "./routes/au"
 
 const app = express();
 

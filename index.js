@@ -26,7 +26,7 @@ app.get("/",(req,res)=>{
     res.send("hello fi")
 })
 //middleware
-app.use()
+app.use("")
 app.listen(8800, () => {
   connect(); 
   console.log("✅ Backend server is running on port 8800");

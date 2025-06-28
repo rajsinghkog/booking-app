@@ -1,8 +1,6 @@
-
+// /Users/rajsingh/BOOKINGAPP/routes/hotels.js
 import express from "express";
-import Hotel from "../api/model/Hotel.js";
-
-
+import Hotel from "../api/model/hotel.js";
 
 const router = express.Router();
 
@@ -14,7 +12,8 @@ router.post("/", async (req, res) => {
     const savedHotel = await newHotel.save();
     res.status(200).json(savedHotel);
   } catch (err) {
-    console.error("❌ Error saving hotel:", err); 
+    console.log(err)
+    //console.error("❌ Error saving hotel:", err); 
     res.status(500).json({
       message: "Internal Server Error",
       error: err.message,

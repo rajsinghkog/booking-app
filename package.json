@@ -1,15 +1,15 @@
 {
   "name": "bookingapp",
   "version": "1.0.0",
+  "description": "Booking App backend using Express and MongoDB (ES6)",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Your Name",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "dotenv": "^16.6.0",
     "express": "^5.1.0",
@@ -18,3 +18,4 @@
     "nodemon": "^3.1.10"
   }
 }
+
